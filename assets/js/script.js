@@ -106,4 +106,3 @@ function displayStatus(data) {
     resultsModal.show();
 
 }
-Footer
