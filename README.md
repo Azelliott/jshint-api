@@ -56,4 +56,11 @@ Example:
 You can see the app demo here:
 https://azelliott.github.io/jshint-api/
 
+## Deployment
 
+To run this locally, first clone the repo with
+
+> git clone https://github.com/Azelliott/jshint-api
+
+You can then use any server to serve static files (Apache, Nginx, Node.js...),
+or run the files directly from disk
