@@ -7,6 +7,9 @@
 Graphical interface to JSHint API provided by Code Institute.
 JSHint scans a program written in JavaScript and reports about commonly made mistakes and potential bugs in the code.
 
+API Endpoint is located at https://ci-jshint.herokuapp.com/api
+
+## Functionality
 The API provides multiple ways and options to validate JS files:
 
 
@@ -26,3 +29,20 @@ NOTE: API key in use expires on 24-07-2023.
 * relax - the opposite of strict! Allows functions in loops and doesn't care about semicolons
 * strict - expects "use strict"; at the top of the code and lints accordingly
 * jquery - switches on jQuery mode so that this code can be checked
+
+## Endpoint test
+To test the API make a GET request to the /api endpoint, you need to supply the API key as a GET parameter, like so:
+
+https://ci-jshint.herokuapp.com/api?api_key=thisismykey
+
+If a valid key has been provided, the result will provide the expiry date for the key:
+
+{"expiry":"24-07-2023","status_code":200}
+
+Otherwise an error will be thrown.
+
+I'm using Insomnia API Client https://insomnia.rest/ but same can be done with any browser.
+
+Example:
+
+![ScreenShot](assets/screenshots/insomnia-test.png)
