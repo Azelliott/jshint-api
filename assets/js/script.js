@@ -74,7 +74,7 @@ function displayException(data) {
     resultsModal.show();
 }
 
-function displayErrors(data) {S
+function displayErrors(data) {
 
     let results = "";
 

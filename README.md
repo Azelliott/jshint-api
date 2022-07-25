@@ -46,3 +46,14 @@ I'm using Insomnia API Client https://insomnia.rest/ but same can be done with a
 Example:
 
 ![ScreenShot](assets/screenshots/insomnia-test.png)
+
+## Screenshot
+
+![ScreenShot](assets/screenshots/gui.png)
+
+## Demo
+
+You can see the app demo here:
+https://azelliott.github.io/jshint-api/
+
+
